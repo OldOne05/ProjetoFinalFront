@@ -1,5 +1,5 @@
 export const Api = {
-    url: 'http://localhost:3000/tarefas',
+    url: 'https://back-end-projeto.herokuapp.com/tarefas',
     fetchGet: () =>  fetch(Api.url),
     fetchGetById: (id) => fetch(Api.url + '/FindById/' + id),
     fetchPost: (body) => {
@@ -25,4 +25,4 @@ export const Api = {
         method: 'DELETE'
       })
     }
-  }
+}

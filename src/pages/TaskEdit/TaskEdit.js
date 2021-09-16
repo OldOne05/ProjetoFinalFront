@@ -84,32 +84,19 @@ const TaskEdit = (props) => {
                 className="add-form-group-input"
               />
             </div>
-            {/* <div className="add-form-group">
-              <label htmlFor="letra" className="add-form-group-label">
-                Letra
+            <div className="add-form-group">
+              <label htmlFor="prazo" className="add-form-group-label">
+                Prazo
               </label>
               <input
                 type="text"
-                id="letra"
-                name="letra"
-                value={fields.letra}
+                id="prazo"
+                name="prazo"
+                value={fields.prazo}
                 onChange={handleFieldsChange}
                 className="add-form-group-input"
               />
             </div>
-            <div className="add-form-group">
-              <label htmlFor="duracao" className="add-form-group-label">
-                Duracao
-              </label>
-              <input
-                type="text"
-                id="duracao"
-                name="duracao"
-                value={fields.duracao}
-                onChange={handleFieldsChange}
-                className="add-form-group-input"
-              />
-            </div> */}
             <div className="add-form-buttons">
               <button className="add-form-buttons-btn-cancelar">Cancelar</button>
               <button className="add-form-buttons-btn-salvar" type="submit">
